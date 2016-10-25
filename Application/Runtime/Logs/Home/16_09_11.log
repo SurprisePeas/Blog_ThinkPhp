@@ -1,0 +1,138 @@
+[ 2016-09-11T09:34:47+08:00 ] ::1 /think_blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-09-11T16:55:36+08:00 ] ::1 /think_blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+ERR: Think\Controller:_initialize方法不存在！
+
+[ 2016-09-11T16:55:53+08:00 ] ::1 /think_blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004179s ]
+ERR: Think\Controller:_initialize方法不存在！
+
+[ 2016-09-11T16:56:04+08:00 ] ::1 /think_blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+ERR: Think\Controller:_initialize方法不存在！
+
+[ 2016-09-11T16:57:05+08:00 ] ::1 /think_blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `think_blog_article` [ RunTime:0.0030s ]
+ERR: Think\Model:getPageData方法不存在！
+
+[ 2016-09-11T17:24:41+08:00 ] ::1 /think_blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `think_blog_article` [ RunTime:0.0052s ]
+SQL: SELECT `aid`,`title` FROM `think_blog_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `think_blog_comment` [ RunTime:0.0049s ]
+ERR: Think\Model:getNewComment方法不存在！
+
+[ 2016-09-11T17:24:43+08:00 ] ::1 /think_blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `think_blog_article` [ RunTime:0.0038s ]
+SQL: SELECT `aid`,`title` FROM `think_blog_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_blog_comment` [ RunTime:0.0039s ]
+ERR: Think\Model:getNewComment方法不存在！
+
+[ 2016-09-11T17:25:12+08:00 ] ::1 /think_blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `think_blog_article` [ RunTime:0.0036s ]
+SQL: SELECT `aid`,`title` FROM `think_blog_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_blog_category` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `think_blog_category` ORDER BY csort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_blog_tag` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_blog_tag`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_blog_article_tag` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_blog_link` [ RunTime:0.0046s ]
+ERR: Think\Model:getDataByState方法不存在！
+
+[ 2016-09-11T17:25:22+08:00 ] ::1 /think_blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `think_blog_article` [ RunTime:0.0039s ]
+SQL: SELECT `aid`,`title` FROM `think_blog_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_blog_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_blog_category` ORDER BY csort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_blog_tag` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `think_blog_tag`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_blog_article_tag` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: new_comment D:\wamp\www\think_blog\Application\Common\Controller\HomeBaseController.class.php 第 38 行.
+

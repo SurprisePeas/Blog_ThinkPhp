@@ -1,0 +1,124 @@
+[ 2016-10-25T20:07:53+08:00 ] ::1 /MyProject/PHP/think_blog/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.042090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.042220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.293476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.047825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.048358s ]
+
+[ 2016-10-25T20:07:54+08:00 ] ::1 /MyProject/PHP/think_blog/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004598s ]
+SQL: SHOW COLUMNS FROM `think_blog_article` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_blog_chat` [ RunTime:0.1385s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_chat` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_chat` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_chat` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_blog_comment` [ RunTime:0.1306s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_comment` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001560s ]
+
+[ 2016-10-25T20:07:59+08:00 ] ::1 /MyProject/PHP/think_blog/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `think_blog_article` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `think_blog_article` INNER JOIN think_blog_category ON category_cid=cid   ORDER BY addtime asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_blog_tag` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `think_blog_tag` INNER JOIN think_blog_article_tag at ON tid=tag_tid   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined index: is_original D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 39 行.
+NOTIC: [8] Undefined index: is_original D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 39 行.
+NOTIC: [8] Undefined index: is_original D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 39 行.
+NOTIC: [8] Undefined index: is_original D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 39 行.
+NOTIC: [8] Undefined index: is_original D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 39 行.
+NOTIC: [8] Undefined index: is_original D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 39 行.
+NOTIC: [8] Undefined index: is_original D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 39 行.
+NOTIC: [8] Undefined index: is_original D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 39 行.
+NOTIC: [8] Undefined index: is_original D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 39 行.
+NOTIC: [8] Undefined index: is_original D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 39 行.
+NOTIC: [8] Undefined index: is_original D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 39 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\MyProject\PHP\think_blog\Application\Runtime\Cache\Admin\d68c1effdec15e36d2122297104abebb.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002415s ]
+
+[ 2016-10-25T20:08:00+08:00 ] ::1 /MyProject/PHP/think_blog/index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `think_blog_article` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `think_blog_category` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `think_blog_category` ORDER BY csort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_blog_tag` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `think_blog_tag`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_blog_article_tag` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 12 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
