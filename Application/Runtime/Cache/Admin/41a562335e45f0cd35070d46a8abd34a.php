@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <title>Goo-后台管理-Blog-ThinkPhp开发</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="/MyProject/PHP/think_blog/Public/static/bootstrap-3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/MyProject/PHP/think_blog/Public/static/bootstrap-3.3.5/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="/MyProject/PHP/think_blog/Public/static/font-awesome-4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/MyProject/PHP/think_blog/Public/static/css/bjy.css">
-    <link rel="stylesheet" type="text/css" href="/MyProject/PHP/think_blog/Template/default/Home/Public/css/index.css">
-    <link rel="stylesheet" type="text/css" href="/MyProject/PHP/think_blog/Template/default/Admin/Public/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="/Git/Blog_ThinkPhp/Public/static/bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/Git/Blog_ThinkPhp/Public/static/bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="/Git/Blog_ThinkPhp/Public/static/font-awesome-4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/Git/Blog_ThinkPhp/Public/static/css/bjy.css">
+    <link rel="stylesheet" type="text/css" href="/Git/Blog_ThinkPhp/Template/default/Home/Public/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/Git/Blog_ThinkPhp/Template/default/Admin/Public/css/index.css" />
 </head>
 <body>
 <!-- 顶部导航菜单开始 -->
@@ -256,17 +256,17 @@
     <iframe id="content-iframe" src="<?php echo U('Admin/Index/welcome');?>" frameborder="0" width="100%" height="100%" name="right_content" scrolling="auto" frameborder="0" scrolling="no"></iframe>
 </div>
 <!-- 右侧内容结束 -->
-<script src="/MyProject/PHP/think_blog/Public/static/js/jquery-2.0.0.min.js"></script>
+<script src="/Git/Blog_ThinkPhp/Public/static/js/jquery-2.0.0.min.js"></script>
 <script>
     logoutUrl="<?php echo U('Home/User/logout');?>";
 </script>
-<script src="/MyProject/PHP/think_blog/Public/static/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="/Git/Blog_ThinkPhp/Public/static/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <!--[if lt IE 9]>
-<script src="/MyProject/PHP/think_blog/Public/static/js/html5shiv.min.js"></script>
-<script src="/MyProject/PHP/think_blog/Public/static/js/respond.min.js"></script>
+<script src="/Git/Blog_ThinkPhp/Public/static/js/html5shiv.min.js"></script>
+<script src="/Git/Blog_ThinkPhp/Public/static/js/respond.min.js"></script>
 <![endif]-->
-<script src="/MyProject/PHP/think_blog/Public/static/pace/pace.min.js"></script>
-<script src="/MyProject/PHP/think_blog/Template/default/Home/Public/js/index.js"></script>
+<script src="/Git/Blog_ThinkPhp/Public/static/pace/pace.min.js"></script>
+<script src="/Git/Blog_ThinkPhp/Template/default/Home/Public/js/index.js"></script>
 <!-- 百度页面自动提交开始 -->
 <script>
 (function(){
@@ -287,7 +287,7 @@
 <!-- 百度统计开始 -->
 
 <!-- 百度统计结束 -->
-<script type="text/javascript" src="/MyProject/PHP/think_blog/Template/default/Admin/Public/js/index.js"></script>
+<script type="text/javascript" src="/Git/Blog_ThinkPhp/Template/default/Admin/Public/js/index.js"></script>
 <script>
 // 动态调整iframe的高度以适应不同高度的显示器
 $('#content').height($(window).height());

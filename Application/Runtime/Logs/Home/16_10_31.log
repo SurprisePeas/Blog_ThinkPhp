@@ -1,0 +1,28 @@
+[ 2016-10-31T09:49:38+08:00 ] ::1 /Git/Blog_ThinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021702s ]
+SQL: SHOW COLUMNS FROM `think_blog_article` [ RunTime:0.0676s ]
+SQL: SELECT `aid`,`title` FROM `think_blog_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0363s ]
+SQL: SHOW COLUMNS FROM `think_blog_category` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `think_blog_category` ORDER BY csort  [ RunTime:0.0389s ]
+SQL: SHOW COLUMNS FROM `think_blog_tag` [ RunTime:0.0389s ]
+SQL: SELECT * FROM `think_blog_tag`  [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `think_blog_article_tag` [ RunTime:0.0401s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 1 LIMIT 1   [ RunTime:0.0357s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 2 LIMIT 1   [ RunTime:0.0345s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 3 LIMIT 1   [ RunTime:0.0325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 4 LIMIT 1   [ RunTime:0.0349s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 5 LIMIT 1   [ RunTime:0.0331s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 6 LIMIT 1   [ RunTime:0.0347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 7 LIMIT 1   [ RunTime:0.0353s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 8 LIMIT 1   [ RunTime:0.0329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 9 LIMIT 1   [ RunTime:0.0352s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 10 LIMIT 1   [ RunTime:0.0339s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 11 LIMIT 1   [ RunTime:0.0364s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article_tag` WHERE `tag_tid` = 12 LIMIT 1   [ RunTime:0.0331s ]
+NOTIC: [8] Undefined variable: new_comment D:\wamp\www\Git\Blog_ThinkPhp\Application\Common\Controller\HomeBaseController.class.php 第 38 行.
+

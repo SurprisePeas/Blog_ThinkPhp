@@ -1,0 +1,50 @@
+[ 2016-10-31T09:49:45+08:00 ] ::1 /Git/Blog_ThinkPhp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.009914s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.331458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.331581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026973s ]
+
+[ 2016-10-31T09:50:05+08:00 ] ::1 /Git/Blog_ThinkPhp/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `think_blog_article` [ RunTime:0.0441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article` LIMIT 1   [ RunTime:0.0329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_article` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0333s ]
+SQL: SHOW COLUMNS FROM `think_blog_chat` [ RunTime:0.0447s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_chat` LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_chat` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_chat` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0504s ]
+SQL: SHOW COLUMNS FROM `think_blog_comment` [ RunTime:0.0382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_blog_comment` LIMIT 1   [ RunTime:0.0328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
